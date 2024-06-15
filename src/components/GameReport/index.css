@@ -1,0 +1,63 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100vw;
+  background-image: linear-gradient(
+    to right,
+    #dbbcc4,
+    #f3dfd8,
+    #d8bfd0,
+    #b7b1d5
+  );
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 83vh;
+  padding: 30px;
+  padding-top: 80px;
+  font-family: 'Roboto';
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: cener;
+  padding: 10px;
+  padding-top: 20px;
+  background-color: #f8fafc;
+  border-radius: 15px;
+  width: 70%;
+  height: 75%;
+  margin-top: 10px;
+}
+.report {
+  display: flex;
+  align-items: center;
+}
+.score-container {
+  border: 5px solid #0ea5e9;
+  border-radius: 70px;
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+.sco {
+  font-size: 30px;
+  color: #0ea5e9;
+  font-weight: bold;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.image {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}

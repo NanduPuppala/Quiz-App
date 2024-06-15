@@ -1,0 +1,93 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100vw;
+  background-image: linear-gradient(
+    to right,
+    #dbbcc4,
+    #f3dfd8,
+    #d8bfd0,
+    #b7b1d5
+  );
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  padding: 30px;
+  padding-top: 80px;
+  font-family: 'Roboto';
+}
+
+.report-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: cener;
+  padding: 10px;
+  padding-top: 20px;
+  background-color: #f8fafc;
+  border-radius: 15px;
+  width: 70%;
+  height: 80%;
+  margin-top: 10px;
+  text-align: center;
+}
+.winning-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/quiz-game-congrats-card-bg.png');
+  text-align: center;
+  background-size: cover;
+  width: 100%;
+}
+.won-img {
+  width: 164px;
+  height: 164px;
+  top: 273px;
+  left: 639px;
+  gap: 0px;
+  opacity: 0px;
+}
+.lose-img {
+  width: 410px;
+  height: 250px;
+  left: 515px;
+}
+.wishes {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #334155;
+}
+.score {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: #0ea5e9;
+}
+.msg {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #334155;
+}
+.info {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #475569;
+}
+.report-btn {
+  width: Hug (86px) px;
+  height: Hug (40px) px;
+  top: 785px;
+  left: 668px;
+  padding: 8px 20px 8px 20px;
+  gap: 10px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: #0ea5e9;
+  color: #ffffff;
+  border: none;
+}
